@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-name: grafana-test-dashboard
-namespace: monitoring
-labels:
-grafana_dashboard: "true"
+  name: grafana-test-dashboard
+  namespace: monitoring
+  labels:
+    grafana_dashboard: "true"
 data:
 grafana-test-dashboard.json: |-
   {
