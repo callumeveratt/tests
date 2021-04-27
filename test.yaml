@@ -6,9 +6,9 @@ metadata:
   labels:
     grafana_dashboard: "true"
 data:
-grafana-test-dashboard.json: |-
-  {
-    "annotations": {
+  grafana-test-dashboard.json: |-
+    {
+      "annotations": {
         "list": [
             {
                 "builtIn": 1,
@@ -21,7 +21,7 @@ grafana-test-dashboard.json: |-
             }
         ]
     },
-    "description": "Monitors Kubernetes deployments in cluster using Prometheus. Shows overall cluster CPU / Memory of deployments, replicas in each deployment. Uses Kube    state metrics and cAdvisor metrics (741)",
+    "description": "Monitors Kubernetes deployments in cluster using Prometheus. Shows overall cluster CPU / Memory of deployments, replicas in each deployment. Uses Kube state metrics and cAdvisor metrics (741)",
     "editable": true,
     "gnetId": 11001,
     "graphTooltip": 0,
@@ -1405,3 +1405,4 @@ grafana-test-dashboard.json: |-
     "uid": "u6M5igpWk",
     "version": 1
   }
+    
